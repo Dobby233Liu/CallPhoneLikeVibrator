@@ -23,7 +23,7 @@ deploy:
   provider: releases
   api_key: "54e78340b914cad8050d37819c8f567d3a2f6628"
   file_glob: true
-  file: app/build/bin/app.apk
+  file: app/build/outputs/apk/debug/app-debug.apk
   skip_cleanup: true
   name: "$(date +'%Y%m%d%H%M%S') release"
   prerelease: true
