@@ -16,4 +16,7 @@ allprojects {
     repositories {
         jcenter()
     }
+	task wrapper22(type: Wrapper) {
+    gradleVersion = '2.2'
+}
 }
