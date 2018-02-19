@@ -21,10 +21,9 @@ before_deploy:
 
 deploy:
   provider: releases
-  user: "Dobby233Liu"
-  password: "liuwenyuan1"
+  api_key: "54e78340b914cad8050d37819c8f567d3a2f6628"
   file_glob: true
-  file: directory/*
+  file: app/build/bin/app.apk
   skip_cleanup: true
-  on:
-    tags: true
+  name: "$(date +'%Y%m%d%H%M%S') release"
+  prerelease: true
