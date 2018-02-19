@@ -1,14 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: com.gradle.scan.plugin.BuildScanPlugin
-
-plugins {
-  id 'com.gradle.build-scan' version '1.12.1'
-}
-
-buildScan {
-  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
-  licenseAgree = 'yes'
-}
 
 
 android {
