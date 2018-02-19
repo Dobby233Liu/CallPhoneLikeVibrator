@@ -10,4 +10,5 @@ android:
     - android-21
 
 script: 
-   - ./build.sh
+   - gradle wrapper22
+   - ./gradlew build connectedCheck --scan
