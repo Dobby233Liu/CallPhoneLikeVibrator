@@ -11,5 +11,8 @@ android:
 
 before_script:
    - sudo chmod 600 ./a.sh
-script: 
-   - sudo sh a.sh
+#script: 
+#   - sudo sh a.sh
+#gradle:
+#   - 2.2
+before_install: sdk install gradle 2.2
